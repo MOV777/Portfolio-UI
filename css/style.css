@@ -172,6 +172,37 @@ body {
   color: #21243d;
 }
 
+a {
+  color: inherit;
+}
+
 .main {
   flex: 1 1 auto;
+}
+
+.header {
+  padding: 25px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__list {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 33px;
+  flex-wrap: wrap;
+}
+.nav__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+.nav__link.active {
+  color: #ff6464;
+}
+.nav__toggle {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

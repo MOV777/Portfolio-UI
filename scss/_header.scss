@@ -1,0 +1,25 @@
+.header {
+   padding: 25px 0;
+}
+.nav {
+   display: flex;
+   align-items: center;
+   &__list {
+      flex-grow: 1;
+      display: flex;
+      justify-content: flex-end;
+      gap: 33px;
+      flex-wrap: wrap;
+   }
+   &__link {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      &.active {
+         color: $primary;
+      }
+   }
+   &__toggle {
+      display: none;
+   }
+}
