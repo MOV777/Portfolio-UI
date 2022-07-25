@@ -2,6 +2,7 @@
 // colors
 $primary: #ff6464;
 $secondary: #edf7fa;
+$blue: #00a8cc;
 $dark: #21243d;
 $light: #8695a4;
 
@@ -56,10 +57,22 @@ a {
    flex: 1 1 auto;
 }
 
-.title {
+.main-title {
    font-weight: 700;
    font-size: 44px;
    line-height: 60px;
+}
+
+.title {
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 60px;
+}
+
+.title-item {
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 38px;
 }
 
 .btn {
