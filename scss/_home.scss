@@ -62,8 +62,11 @@
    background-color: #fff;
    border-radius: 4px;
 
-   .title-item {
+   &__title {
       margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 38px;
    }
    &__info {
       display: flex;
