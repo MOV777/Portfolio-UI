@@ -373,4 +373,25 @@ a {
   line-height: 26px;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.footer__copy {
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.social-list {
+  max-width: 232px;
+  width: 100%;
+  margin: 0 auto 26px auto;
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.social-list__link {
+  display: block;
+}
+.social-list__link:hover {
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */

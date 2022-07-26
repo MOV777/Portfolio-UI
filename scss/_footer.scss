@@ -1,0 +1,21 @@
+.footer {
+   &__copy {
+      text-align: center;
+      font-size: 14px;
+      line-height: 21px;
+   }
+}
+.social-list {
+   max-width: 232px;
+   width: 100%;
+   margin: 0 auto 26px auto;
+   display: flex;
+   gap: 35px;
+   flex-wrap: wrap;
+   &__link {
+      display: block;
+      &:hover {
+         opacity: 0.5;
+      }
+   }
+}
