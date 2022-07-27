@@ -262,6 +262,12 @@ a {
 .work .title-item {
   margin-bottom: 15px;
 }
+.work__link {
+  transition: 0.3s all ease-in;
+}
+.work__link:hover {
+  color: #ff6464;
+}
 .work__info {
   display: flex;
   gap: 26px;
@@ -303,8 +309,15 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 29px;
+  cursor: pointer;
 }
 .nav__link.active {
+  color: #ff6464;
+}
+.nav__link:hover {
+  transition: 0.3s all ease-in;
+}
+.nav__link:hover:hover {
   color: #ff6464;
 }
 .nav__toggle {

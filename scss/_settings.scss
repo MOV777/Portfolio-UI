@@ -133,6 +133,13 @@ a {
    .title-item {
       margin-bottom: 15px;
    }
+
+   &__link {
+      transition: 0.3s all ease-in;
+      &:hover {
+         color: $primary;
+      }
+   }
    &__info {
       display: flex;
       gap: 26px;

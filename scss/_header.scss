@@ -15,8 +15,15 @@
       font-weight: 500;
       font-size: 20px;
       line-height: 29px;
+      cursor: pointer;
       &.active {
          color: $primary;
+      }
+      &:hover {
+         transition: 0.3s all ease-in;
+         &:hover {
+            color: $primary;
+         }
       }
    }
    &__toggle {
