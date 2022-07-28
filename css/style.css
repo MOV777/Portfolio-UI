@@ -269,6 +269,7 @@ a {
   gap: 18px;
 }
 .work__image {
+  display: block;
   width: 246px;
   height: 180px;
   flex-shrink: 0;
