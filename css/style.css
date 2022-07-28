@@ -573,6 +573,15 @@ a {
     gap: 20px;
   }
 }
+.post__date {
+  flex-shrink: 0;
+}
+.post__link {
+  transition: 0.3s all ease-in;
+}
+.post__link:hover {
+  color: #ff6464;
+}
 
 .blog {
   padding: 50px 0;

@@ -143,4 +143,13 @@
          gap: 20px;
       }
    }
+   &__date {
+      flex-shrink: 0;
+   }
+   &__link {
+      transition: 0.3s all ease-in;
+      &:hover {
+         color: $primary;
+      }
+   }
 }
