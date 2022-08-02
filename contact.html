@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
-   <title>Blog</title>
+   <title>Contact</title>
 </head>
 
 <body>
@@ -37,6 +37,67 @@
       <section class="contact">
          <div class="container">
             <h1 class="main-title">Contacts</h1>
+            <div class="contact__row">
+               <div class="contact__info contact-info">
+                  <h2 class="visually-hidden">Contact Information</h2>
+                  <div class="contact-info__location">
+                     <h3 class="contact-info__title">Location:</h3>
+                     <a href="#" class="contact-info__place">
+                        <address>Chernighiv, Ukraine</address>
+                     </a>
+                  </div>
+                  <div class="contact-info__email">
+                     <h3 class="contact-info__title">Email:</h3>
+                     <a href="mailto:minenkogt@gmail.com" class="contact-info__place">minenkogt@gmail.com</a>
+                  </div>
+                  <div class="contact-info__social">
+                     <h2 class="contact-info__title">Social:</h2>
+                     <ul class="contact-info__list contact-social">
+                        <li class="contact-social__item">
+                           <a href="#" class="contact-social__link">Facebook</a>
+                        </li>
+                        <li class="contact-social__item">
+                           <a href="#" class="contact-social__link">Instagram</a>
+                        </li>
+                        <li class="contact-social__item">
+                           <a href="#" class="contact-social__link">Twitter</a>
+                        </li>
+                        <li class="contact-social__item">
+                           <a href="#" class="contact-social__link">LinkedIn</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <form action="#" class="contact__form contact-form">
+                  <h2 class="contact-form__title">Send me some electronic mail</h2>
+                  <div class="contact-form__group">
+                     <label for="form-name" class="contact-form__label">Name:</label>
+                     <input type="text" id="form-name" class="contact-form__input" required>
+                  </div>
+                  <div class="contact-form__group">
+                     <label for="form-company" class="contact-form__label">Company:</label>
+                     <input type="text" id="form-company" class="contact-form__input">
+                  </div>
+                  <div class="contact-form__group">
+                     <label for="form-email" class="contact-form__label">Email:</label>
+                     <input type="email" id="form-email" class="contact-form__input" required>
+                  </div>
+                  <div class="contact-form__group">
+                     <label for="form-tel" class="contact-form__label">Phone:</label>
+                     <input type="tel" id="form-tel" class="contact-form__input">
+                  </div>
+                  <div class="contact-form__group">
+                     <label for="form-loaction" class="contact-form__label">Location:</label>
+                     <input type="text" id="form-loaction" class="contact-form__input">
+                  </div>
+                  <div class="contact-form__group">
+                     <label for="form-email" class="contact-form__label">Message:</label>
+                     <textarea name="form_message" id="form-message" cols="30" rows="10"
+                        class="contact-form__message"></textarea>
+                  </div>
+                  <button class="btn contact-form__btn">Send Message</button>
+               </form>
+            </div>
          </div>
       </section>
    </main>
